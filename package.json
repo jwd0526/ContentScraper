@@ -1,0 +1,25 @@
+{
+  "name": "contentscraper",
+  "version": "1.0.0",
+  "description": "Gathers website data",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "watch": "nodemon src/index.ts"
+  },
+  "author": "Jackson Davis",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "puppeteer": "^22.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
